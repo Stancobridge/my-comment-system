@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Comment box</title>
+    <link rel="stylesheet" href="fontawsome/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <h1 style="color:rgb(20, 161, 20);;">COMMENT SYSTEM</h1>
+
+        <div wholeWrapper>
+
+       
+<div class="comment-wrapper">
+    <h2>Comment Your Experience</h2>
+    <div class="comment-box">
+
+        <form id="form">
+            <textarea name="textarea" id="input-area" placeholder="Enter Comment Here..." required></textarea>
+          
+            <span class="label">Username:</span><br>
+            <input type="text"  id="name" placeholder="Enter Name..." required><br>
+
+            <span class="label">Email:</span><br>
+            <input type="text" class="site" id="name"  placeholder="www." required><br>
+            
+            <button class="btn">Post Comment</button>
+        </form>
+        
+    </div>
+</div>
+
+<!--first comment out-->
+<h3 id="h3" style=" color:white;">Comments</h3>
+
+<ul class="comment-output" id="out-area">
+    
+        <li class="comment-one">
+                <header class="header">
+                    <div class="container">
+                        <img src="img/6142904_kissdaniels3_jpegae88dd2f6e473750faaf8bb2a0e0b114.jfif" alt="profile" class="profile-img">
+                        <span class="gender">Developer J.J</span>
+                       
+                        <div class="exit">&times;</div>
+                        
+                    </div>
+                </header>
+
+                <p class="text-node">
+                    W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. 
+                </p>
+                <span
+                class="times"><I class="fa fa-clock icons"> </I> 2:23pm</span>
+
+                <span
+                class="times"><I class="fa fa-envelope icons"> </I> www.monolith.com</span>
+
+                <span
+                class="times"><I class="fa fa-calendar icons"> </I> April 22 2019</span>
+            </li>
+
+        
+    
+    </ul>
+</div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,231 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background:url('../img/jared-rice-ujNuUPN12z0-unsplash.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+   
+}
+
+*{
+    outline: none;
+}
+p {
+    font-size:15px;
+    color:#383737;
+}
+h1 {
+    text-align:Center;
+}
+.label {
+    font-size:13px;
+    font-weight:bold;
+}
+.times {
+    padding:0px 0px 0px 10px;
+    font-size:12px;
+}
+.icons {
+    color:rgb(20, 161, 20);
+    font-size:14px;
+}
+.icon-md {
+    color:white;
+    font-size:29px;
+    padding-top:5px;
+}
+.email {
+    color:gray
+}
+.comment-wrapper {
+    max-width:700px;
+    width:100%;
+    height:auto;
+    background:white;
+    padding:20px;
+    margin:0 auto 30px auto;
+    box-shadow: 1px 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.comment-box {
+    max-width:100%;
+}
+#h3 {
+    text-align:center;
+    font-size:28px;
+}
+textarea {
+    width:90%;
+    border:1px solid #ccc;
+    height:100px;
+    border-radius:3px;
+    padding:9px;
+    outline:none;
+    margin-right:12px;
+}
+
+#select {
+    font-size:18px;
+    padding-right:12px;
+}
+
+button {
+    background:rgb(20, 161, 20);
+    margin:10px 0px 25px 0px;
+    border:none;
+    padding:10px 20px;
+    color:white;
+    font-size:14px;
+    cursor:pointer;
+    border-radius:3px;
+    transition:350ms ease-in-out;
+}
+button:Hover {
+    background:rgb(255, 255, 255);
+    color:rgb(20, 161, 20);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*comment output */
+.comment-output {
+    margin-top: 20px;
+    background:white;
+    list-style:none;
+    height:auto;
+    padding:20px;
+    max-width:720px;
+    margin:0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#name {
+    border-radius:3px;
+    border:1px solid #ccc;
+    padding:8px;
+    margin-bottom:5px;
+}
+
+.comment-one {
+    border-radius:3px;
+    border:1px solid #ccc;
+    margin-bottom:25px;
+    padding-bottom:5px;
+}
+.header {
+    width:100%;
+    background:green;
+    position: relative;
+    border:none;
+}
+
+.container {
+    width:700px;
+    margin:0 auto;
+    padding:10px ;
+    display:flex;
+}
+.profile-img {
+    width:30px;;
+    height:30px;
+    border-radius:50%;
+}
+.gender {
+    color:white;
+    font-size:14px;
+    padding:12px 0px 0px 6px;
+}
+.exit {
+    position:absolute;
+    top:0;
+    right:0;
+    color:white;
+    font-size:25px;
+    padding:8px 12px;
+    cursor:pointer;
+}
+.exit:hover {
+    color:rgb(83, 37, 37);
+    transition:350ms ease-in-out;
+}
+.text-node {
+    font-size:15px;
+    /* font-weight: bold; */
+    padding:0px 0px 13px 10px;
+    border-bottom:1px solid #ccc;
+}
+
+@media screen and (max-width:600px){
+   
+.comment-wrapper {
+    width:85%;
+    margin:0 auto;
+}
+
+textarea {
+    width:90%;
+}
+.comment-output {
+    margin:0 auto;
+    background:white;
+    width:85%;
+}
+.comment-one {
+    margin-bottom:25px;
+    padding-bottom:5px;
+}
+.text-node {
+    font-size:13px;
+}
+
+.times {
+    font-size:10px;
+}
+.icons-md {
+    font-size:13px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
