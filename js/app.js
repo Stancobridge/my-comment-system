@@ -59,7 +59,14 @@ function populateList(plates = [], commentWrap) {
 };
 
 form.addEventListener('submit', addComment);
-populateList(items, commentWrapper);
+
+const loadInitialComments = (comments = [], el) => {
+	comments.forEach(cm => {
+    populateList(cm, el)
+    })
+}
+
+loadInitialComments(items, commentWrapper);
 
 //exit
 const exitBtn = document.querySelector('.comment-output');
